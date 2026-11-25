@@ -1,6 +1,6 @@
 # Centre segregation and inclusion bands in casting (C07)
 
-> Workspace folder: `e07-cfd-macrosegregation` · Suggested GitHub repository: `metallurgy-cfd-macrosegregation`
+> Workspace folder: `e07-cfd-macrosegregation` · Suggested GitHub repository: `casting-segregation-cfd`
 > Epic: E07 · Weeks: W27–W30 · Evidence level: **A + B**
 > Master specification: [`CASES.md`](https://github.com/ahmadishamulayadyakmal/metallurgy-project/blob/main/CASES.md) §4 · Download the papers: [`JOURNALS.md`](https://github.com/ahmadishamulayadyakmal/metallurgy-project/blob/main/JOURNALS.md)
 
@@ -71,22 +71,22 @@ is pushed as its own repository.
 The real industrial case dossier is in `case/`: `README.md` (full case card),
 `evidence.md`, `sources.md` and `week_plan.md`.
 
-## Push this folder to GitHub
+## Repository status and GitHub Desktop
 
-This folder is prepared but is **not** a Git repository yet:
+This folder is already a Git repository on `main`, pushed to GitHub as
+`casting-segregation-cfd` with an SSH `origin`. In GitHub Desktop, choose **Add local
+repository** and select this folder; do not clone into the same path.
 
 ```bash
-cd e07-cfd-macrosegregation
-git init
-git branch -M main
-git remote add origin https://github.com/<your-user>/metallurgy-cfd-macrosegregation.git
-git add .
-git commit -m "Initial import: C07 · W27–W30"
-git push -u origin main
+git status --short --branch
+git pull --rebase origin main
+git push origin main
 ```
 
-Use weekly tags `wNN` and one case tag `c07` inside this repository.
-Never commit API keys, raw downloaded datasets or publisher PDFs.
+Weekly work follows `CONTRIBUTING.md`: one PR, green tests, one artefact, one
+README paragraph, `docs/sprints/wNN.md`, tag `wNN`. Tag `c07` only after
+all six README sections are complete.
+
 
 ## Language
 
