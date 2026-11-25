@@ -1,0 +1,32 @@
+# Case metadata template. Required fields are mandated by GRAND_PLAN.md §9.
+# This case is a placeholder until the 2D solver lands in E07 (W27-W35).
+case_id: ingot_2d
+status: placeholder
+description: >-
+  Placeholder for the 2D macrosegregation case. Do not use for results.
+
+mesh:
+  type: structured
+  nx: null
+  ny: null
+
+time:
+  dt: null
+  t_end: null
+
+solver:
+  version: "0.1.0"
+  name: libthermo
+  compiler: null
+  flags: null
+
+properties:
+  reference_paper: null
+  units_system: SI
+
+initial_conditions: null
+boundary_conditions: null
+
+seed: null
+reference_paper: null
+checksum_output: null
