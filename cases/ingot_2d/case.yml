@@ -1,5 +1,5 @@
-# Case metadata template. Required fields are mandated by GRAND_PLAN.md §9.
-# This case is a placeholder until the 2D solver lands in E07 (W27-W35).
+# Case metadata. Field names follow the portfolio's case-file convention.
+# This case is a placeholder until the 2D solver is implemented.
 case_id: ingot_2d
 status: placeholder
 description: >-
